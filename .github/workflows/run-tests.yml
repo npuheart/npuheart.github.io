@@ -1,0 +1,40 @@
+name: Run tests
+
+on:
+  push:
+    branches:
+      - "**"
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+jobs:
+  run-tests:
+    name: Run tests
+    runs-on: ubuntu-latest
+    container: dolfinx/dolfinx:stable
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip3 install pytest flake8
+        name: Install pytest and flake8
+      - run: pip3 install -r _test/requirements.txt
+        name: Install test dependencies
+      - run: flake8 _test/
+        name: Run flake8 on tests
+      - run: flake8 _tools/
+        name: Run flake8 on tools
+      - run: |
+          TOKEN=${{ secrets.symfembot_token }}
+          if [ -n "${TOKEN}" ]; then
+            echo "token=${TOKEN}" >> ${GITHUB_OUTPUT}
+          else
+            echo "token=${{ github.token }}" >> ${GITHUB_OUTPUT}
+          fi
+        shell: bash
+        name: Determine which token to use when running tests
+        id: token
+      - run: GITHUB_TOKEN=${{ steps.token.outputs.token }} python3 -m pytest _test/ --has-fenicsx 1
+        name: Run tests

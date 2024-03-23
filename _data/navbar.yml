@@ -1,0 +1,15 @@
+# Site navigation links
+- title: 非正式版本！
+  page: /
+- title: 只作演示！
+  page: /
+- title: 下载
+  page: /download
+- title: 文档
+  page: /documentation
+- title: 社区
+  page: /community
+- title: 引用
+  page: /citing
+- title: <i class="fa-solid fa-arrow-up-right-from-square"></i> 捐赠
+  page: https://numfocus.salsalabs.org/donate-to-fenics/index.html
