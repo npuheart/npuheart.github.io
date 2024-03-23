@@ -1,6 +1,6 @@
 ---
-title: NPUHeart
-subtitle: logo
+title: NPUHeart 
+subtitle: by Ma Pengfei
 ---
 
 ## NPUHeart 计算平台
@@ -35,4 +35,4 @@ project. If you like FEniCS and want to support our mission to produce
 the best possible platform for open-source computing, consider making [a
 donation](https://numfocus.salsalabs.org/donate-to-fenics/index.html) to our project.
 
-[![NumFOCUS](/assets/img/numfocus.png){: .image-center }](https://www.numfocus.org/)
+[![NumFOCUS](/assets/logo/logo_lab_long.png){: .image-center }](http://www.nwpu-compmath.cn/chinaheart/)
