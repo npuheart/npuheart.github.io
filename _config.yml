@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate
-site_favicon: logo_lab_small.png
+site_favicon: favicon.ico
 title: NPUHeart 项目
 description: IB method for cardiac simulation
 
