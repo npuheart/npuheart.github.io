@@ -9,14 +9,4 @@ if(url.startsWith("https://")){
 if(url.startsWith("www.")){
     url = url.substring(4)
 }
-if(url.startsWith("fenicsproject.org/")){
-    url = url.substring(18)
-}
-
-if(url.startsWith("pub/")){
-    window.location.assign("https://pub.fenicsproject.org/" + url.substring(4))
-}
-if(url.startsWith("olddocs/")){
-    window.location.assign("https://olddocs.fenicsproject.org/" + url.substring(8))
-}
 </script>

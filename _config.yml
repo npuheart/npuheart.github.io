@@ -1,12 +1,7 @@
 theme: jekyll-theme-slate
-site_favicon: favicon.ico
+site_favicon: logo_lab_small.png
 title: NPUHeart 项目
-description: Open-source finite element library
-fenicsversion: 2019.1.0
-fenicsversiondate: April 2019
-fenicsxversion: 0.7
-dolfinxversion: 0.7.2 # this is used in the URL of the Python demos
-fenicsxversiondate: October 2023
+description: IB method for cardiac simulation
 
 defaults:
   -
@@ -16,4 +11,4 @@ defaults:
       layout: "default"
       title: "NPUHeart 项目"
 
-url: https://fenicsproject.org
+url: https://npuheart.github.io

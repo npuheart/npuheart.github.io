@@ -5,6 +5,8 @@ subtitle: by Ma Pengfei
 
 ## NPUHeart 计算平台
 
+NPUHeart 是一个用浸没边界(IB)方法求解流固耦合(FSI)问题的计算平台，专注于心脏力学问题。
+
 FEniCS is a popular open-source computing platform for solving partial
 differential equations (PDEs) with the finite element method (FEM). FEniCS enables users to quickly
 translate scientific models into efficient finite element code. With the
