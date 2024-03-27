@@ -1,40 +1,24 @@
 ---
 title: NPUHeart 
-subtitle: by Ma Pengfei
 ---
 
-## NPUHeart 计算平台
+## Introduction
 
-NPUHeart 是一个用浸没边界(IB)方法求解流固耦合(FSI)问题的计算平台，专注于心脏力学问题。
+NPUHeart is an open-source computing platform for solving fluid-structure interaction (FSI) problems with the immersed boundary (IB) method. NPUHeart is fine-tuned for the cardiac mechanics problems and runs on Linux systems on x86 platforms equipped with NVIDIA GPUs.
 
-FEniCS is a popular open-source computing platform for solving partial
-differential equations (PDEs) with the finite element method (FEM). FEniCS enables users to quickly
-translate scientific models into efficient finite element code. With the
-high-level Python and C++ interfaces to FEniCS, it is easy to get
-started, but FEniCS offers also powerful capabilities for more
-experienced programmers. FEniCS runs on a multitude of platforms
-ranging from laptops to high-performance computers.
+## Orgnazation
+- Xi'an Key Laboratory of Scientific Computation and Applied Statistics
+- NPU-UoG International Cooperative Lab for Computation and Application in Cardiology 
+- School of Mathematics and Statistics, Northwestern Polytechnical University
 
-<center>
+[![NPU-UoG CAC lab](/assets/logo/logo_lab_long.png){: .image-center }](http://www.nwpu-compmath.cn/chinaheart/)
+
+## Developer
+- Ma Pengfei
+
+<!-- <center>
 {% include _large_icon.html icon="fa-solid fa-download" href="download/" label="Download"
 %}{% include _large_icon.html icon="fa-solid fa-book" href="documentation/" label="Documentation"
 %}{% include _large_icon.html icon="fa-brands fa-github" href="https://github.com/FEniCS" label="Source code"
 %}
-</center>
-
-<center>
-{% include _large_icon.html icon="fa-brands fa-linkedin" href="https://www.linkedin.com/company/fenics-project" label="LinkedIn"
-%}{% include _large_icon.html icon="fa-brands fa-twitter" href="https://twitter.com/fenicsproject" label="Twitter"
-%}{% include _large_icon.html icon="fa-brands fa-slack" href="https://join.slack.com/t/fenicsproject/shared_invite/zt-1lraknsp1-6_3Js5kueDIyWgF192d3nA" label="Slack"
-%}
-</center>
-
-
-
-
-FEniCS is a [NumFOCUS](https://www.numfocus.org/) fiscally supported
-project. If you like FEniCS and want to support our mission to produce
-the best possible platform for open-source computing, consider making [a
-donation](https://numfocus.salsalabs.org/donate-to-fenics/index.html) to our project.
-
-[![NumFOCUS](/assets/logo/logo_lab_long.png){: .image-center }](http://www.nwpu-compmath.cn/chinaheart/)
+</center> -->
