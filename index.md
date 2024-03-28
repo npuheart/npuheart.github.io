@@ -8,7 +8,7 @@ NPUHeart is an in house <del>open-source</del> computing platform for solving fl
 
 ## Orgnazation
 - Xi'an Key Laboratory of Scientific Computation and Applied Statistics
-- NPU-UoG International Cooperative Lab for Computation and Application in Cardiology 
+- [NPU-UoG International Cooperative Lab for Computation and Application in Cardiology](http://www.nwpu-compmath.cn/chinaheart/)
 - School of Mathematics and Statistics, Northwestern Polytechnical University
 
 [![NPU-UoG CAC lab](/assets/logo/logo_lab_long.png){: .image-center }](http://www.nwpu-compmath.cn/chinaheart/)
