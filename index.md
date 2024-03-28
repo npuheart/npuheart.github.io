@@ -1,10 +1,10 @@
 ---
 title: NPUHeart 
 ---
-
 ## Introduction
-
-NPUHeart is an open-source computing platform for solving fluid-structure interaction (FSI) problems with the immersed boundary (IB) method. NPUHeart is fine-tuned for the cardiac mechanics problems and runs on Linux systems on x86 platforms equipped with NVIDIA GPUs.
+<p style="text-align: justify;">
+NPUHeart is an in house <del>open-source</del> computing platform for solving fluid-structure interaction (FSI) problems with the immersed boundary (IB) method. NPUHeart is fine-tuned for the cardiac mechanics problems and runs on Linux systems on x86 platforms equipped with NVIDIA GPUs.
+</p>
 
 ## Orgnazation
 - Xi'an Key Laboratory of Scientific Computation and Applied Statistics
